@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #282c34;
+}
+
+h1 {
+  color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user , .assistant {
+  width: fit-content;
+  height: fit-content;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 1%;
+}
+
+.user {
+  background-color: rgb(255, 191, 127);
+  margin-left: auto;
+  max-width: 60%;
+}
+
+.assistant {
+  background-color: rgb(145, 145, 229);
+  max-width: 60%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+}
+
+input {
+  margin: 1%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+button {
+  margin: 1%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: rgb(177, 249, 157);
+}
+
+@media screen and (max-width:900px) {
+  body {
+    width: 90%;
+  }
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+  body {
+    width: 80%;
+  }
+}
