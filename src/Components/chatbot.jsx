@@ -3,7 +3,7 @@ import axios from 'axios';
 const OPENAI_SECRET_CODE = process.env.REACT_APP_OPENAI_SECRET_CODE;
 
 const Chatbot = () => {
-  
+
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState('');
   const [questions, setQuestions] = useState([]);
