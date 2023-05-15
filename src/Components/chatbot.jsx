@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-const OPENAI_SECRET_CODE = process.env.OPENAI_SECRET_CODE;
+const OPENAI_SECRET_CODE = process.env.REACT_APP_OPENAI_SECRET_CODE;
 
 const Chatbot = () => {
   
